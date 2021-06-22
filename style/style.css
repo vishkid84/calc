@@ -1,0 +1,13 @@
+.calc_body{
+    display: flex;
+  justify-content: center;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.calc_keys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
