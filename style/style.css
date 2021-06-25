@@ -1,13 +1,29 @@
-.calc_body{
-    display: flex;
-  justify-content: center;
+body{
+    background: hsl(222, 26%, 31%);
 }
 
-.container{
+.attribution{
+    color: #fafafa;
+}
+
+.main_container{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_container{
     margin: 0 auto;
 }
 
 .calc_keys{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.calc_display, 
+.calc_keys button{
+    font-size: 2rem;
 }
